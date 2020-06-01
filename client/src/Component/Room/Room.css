@@ -1,0 +1,24 @@
+.gutter-box {
+    padding: 8px 0;
+    background: #00a0e9;
+  }
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+
+  .ant-menu-horizontal > .ant-menu-item-selected{
+    color: inherit;
+    border-bottom: 2px solid transparent !important;
+  }
+  
+  .ant-menu-horizontal > .ant-menu-item:hover{
+    /* color: inherit; */
+    border-bottom: 2px solid transparent !important;
+  }
+  .modified-item span span span button span {
+    position: relative;
+    bottom: 2px;
+    left: 5px;
+  }
+ 
+  

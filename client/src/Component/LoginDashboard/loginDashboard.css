@@ -1,0 +1,64 @@
+.landing1 {
+    position: fixed;
+    background-color: #061529;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    /* overflow-y: visible; */
+    /* margin-top: -24px; */
+    /* margin-bottom: -50px; */
+  }
+
+  .myText1{
+    color: rgb(255, 255, 255);
+}
+.landing2{
+  background-color: #061529;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  height: 495px;
+  display: flex;
+  width: 192vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-end; */
+  overflow-y: auto;
+
+}
+.chat-window{
+  background-color: #061529;
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  height:100%;
+}
+/* .chat-messages{
+  flex: 1;
+  height:100%;
+  overflow: visible;
+  display: flex;
+  flex-direction: column-reverse;
+} */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

@@ -1,0 +1,25 @@
+.incomingmessage{
+    background-color: red;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+}
+.outgoingmessage{
+    background-color: purple;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
+}
+.avatarown{
+    position: relative;
+    padding: 10;
+}
+.avatarop{
+    position: relative;
+    /* top: 5px; */
+    padding: 10;
+}
