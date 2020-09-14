@@ -1,12 +1,11 @@
 import React from 'react'
 import FacebookLogin from 'react-facebook-login'
-// import {FacebookFilled} from '@ant-design/icons'
 
 import './login.css'
 import {Col,Row,Card} from 'antd'
 import { connect } from 'react-redux'
 import {SignIn} from '../../Action'
-// const {Title}=Typography
+
 class Login extends  React.Component{
     render(){
         return <div className='landing'>

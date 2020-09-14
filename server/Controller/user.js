@@ -23,9 +23,7 @@ exports.getToken=async (req,res,next)=>{
     // console.log('exist')
     return res.status(200).json({token:token,user:existingUser,status:'succes'})
     }
-    // console.log('here')
-    // console.log(req.user)
-        // let token1=this.getToken(req.user)
+
         let newUser=new User({
             _id:mongoose.Types.ObjectId(),
             facebook:{

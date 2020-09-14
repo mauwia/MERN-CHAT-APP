@@ -14,8 +14,6 @@ class CreateChat extends React.Component {
     this.props.handleOk()
   }
   render() {
-    // const { visible, confirmLoading, ModalText } = this.state;
-    // console.log(this.props.auth)
     return (
       <div>
         

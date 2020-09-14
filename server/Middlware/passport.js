@@ -13,8 +13,7 @@ passport.use('facebookToken',new FacebookStrategy(
     ,async(accessToken,refreshToken,profile,done)=>{
         try{
         
-        // console.log(accessToken)
-        // console.log(profile)
+       
         done(null,profile)
         }
         catch(err){
@@ -31,7 +30,7 @@ passport.use(new JWTStrategy({
         try {
             // const user = await User.findById(jwtPayload.id);
             const user=await User.findOne({"facebook.id":jwtPayload.id})
-            // console.log(user)
+          
             // If user doesn't exists, handle it
             if (!user) {
                 return done(null, false);

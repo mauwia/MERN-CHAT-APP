@@ -1,8 +1,7 @@
 import React from 'react';
 import 'antd/dist/antd.css';
 import {Route} from 'react-router-dom'
-// import { DatePicker } from 'antd'
-// import History from '../History'
+
 import {GetDetails,GetAllRooms,GetNewChat,SendMessage} from '../Action'
 import NameSpace from './namespace.js/namespace';
 import Login from './Login/login'

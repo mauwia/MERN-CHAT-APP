@@ -12,13 +12,14 @@
   }
   
   .ant-menu-horizontal > .ant-menu-item:hover{
-    /* color: inherit; */
     border-bottom: 2px solid transparent !important;
   }
   .modified-item span span span button span {
     position: relative;
     bottom: 2px;
     left: 5px;
+    /* bottom: 2px;
+    left: 5px; */
   }
  
   

@@ -11,6 +11,7 @@ export const onSuccess=async(response)=>{
         })
          response1=await response1.json()
         //  console.log(response1)
+        // saving in local storage token
          localStorage.setItem('token',JSON.stringify(response1.token))
          console.log(response1)
          localStorage.setItem('id',JSON.stringify(response1.user.facebook.id))

@@ -1,6 +1,8 @@
 import React from 'react'
 import  {Col,Row} from 'antd'
 import './loginDashboard.css'
+// import  {Col,Row} from 'antd'
+// import './loginDashboard.css'
 
 class LoginDash extends React.Component{
     render(){

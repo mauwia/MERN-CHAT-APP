@@ -5,6 +5,7 @@
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     margin-bottom: 10px;
+    
 }
 .outgoingmessage{
     background-color: purple;
@@ -20,6 +21,5 @@
 }
 .avatarop{
     position: relative;
-    /* top: 5px; */
     padding: 10;
 }

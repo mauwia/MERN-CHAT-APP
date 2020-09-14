@@ -19,15 +19,12 @@ const userRoute=require('./routes/user')
 const chatRoute=require('./routes/chat')
 
 mongoose.set('useFindAndModify',false)
-// app.get('/', (req, res) => {
-//     res.sendFile(__dirname + '/index.html');
-//   });
+
 app.use(bodyParser.urlencoded({extended:true}))
 app.use(bodyParser.json())
 app.use(cors({origin:true}))
 app.use('/chat',chatRoute)
 app.use('/user',userRoute)
-// app.use('/k',()=>{console.log('hello')})
 app.use((err,req,res,next)=>{
     console.log(err)
     const status=err.statusCode || 500

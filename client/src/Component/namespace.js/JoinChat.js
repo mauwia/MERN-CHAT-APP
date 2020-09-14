@@ -14,7 +14,6 @@ class JoinChat extends React.Component {
     this.props.handleOk()
   }
   render() {
-    // const { visible, confirmLoading, ModalText } = this.state;
     return (
       <div>
         
@@ -28,7 +27,7 @@ class JoinChat extends React.Component {
         >
             <h4>Enter Room Id</h4>
           <Input placeholder={'Room Id'} value={this.state.value} onChange={(e)=>{this.setState({value:e.target.value})}}/>
-            {/* <p>{this.props.ModalText}</p> */}
+        
         </Modal>
       </div>
     );

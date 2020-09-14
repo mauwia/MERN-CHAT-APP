@@ -19,7 +19,7 @@ import LoginDash from '../LoginDashboard/loginDashboard';
 import ChatRoom from '../Chat/chatRoom';
 
 const { Header, Content,  Sider } = Layout;
-// const { SubMenu } = Menu;
+
 
 class NameSpace extends React.Component {
   state = {

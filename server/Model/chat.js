@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-
+// CHATS STRUCTURE
 const chatUserSchema=mongoose.Schema(
     {
         chatUserId:{type:mongoose.Schema.Types.ObjectId,ref:'User',required:true}

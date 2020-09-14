@@ -7,8 +7,7 @@ img{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    /* margin-top: -24px; */
-    /* margin-bottom: -50px; */
+
   }
 .myCard{
     opacity: 0.8;
@@ -25,8 +24,7 @@ img{
 .myText{
     opacity: 1;
     color: rgb(255, 230, 230);
-    /* margin-left: 180px; */
-    /* font-size: 100; */
+   
 }
 .myButton{
     width: 165px;

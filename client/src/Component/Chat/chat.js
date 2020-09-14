@@ -3,6 +3,11 @@ import { Input } from 'antd';
 import 'emoji-mart/css/emoji-mart.css'
 import {connect} from 'react-redux'
 import { sendMessage } from '../../utils/chat';
+// import React from 'react'
+// import { Input } from 'antd';
+// import 'emoji-mart/css/emoji-mart.css'
+// import {connect} from 'react-redux'
+// import { sendMessage } from '../../utils/chat';
 
 const { Search } = Input;
 
@@ -14,7 +19,8 @@ class Chat extends React.Component{
       this.setState({mess:''})
     }
     render(){
-        return<>{this.props.room && <Search style={{zIndex:0}}
+        return<>
+        {this.props.room && <Search style={{zIndex:0}}
         placeholder="input search text"
         enterButton="Send"
         size="large"

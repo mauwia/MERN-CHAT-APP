@@ -2,19 +2,15 @@ import React from 'react'
 import './Room.css'
 
 import {connect} from 'react-redux'
-// import {Row,Col} from 'antd'
 import { Menu, Layout } from 'antd';
 import { PieChartOutlined } from '@ant-design/icons';
 import { Popconfirm, message } from 'antd';
-import Searche from './Search';
 import History from '../../History';
 import {GetChat,LeaveRoom} from '../../Action'
 import { Button } from 'antd'
 import ViewMates from './ViewMates';
 import { LeftRoom } from '../../utils/chat';
-// import Chat from '../Chat/chat';
 const {Header}=Layout
-// const { SubMenu } = Menu
 
 
 
@@ -26,7 +22,7 @@ class Room extends React.Component{
   }
   
    cancel=(e)=> {
-    // console.log(this.props.user);
+    console.log(this.props.user);
   }
     state = {
         theme: 'dark',

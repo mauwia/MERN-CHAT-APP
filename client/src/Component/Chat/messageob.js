@@ -2,7 +2,7 @@ export default [
     {id:1,mess:'im 1'},
     {id:1,mess:'im 1'},
     {id:3,mess:'im 3'},
-    {id:3,mess:'im 3 just to be sure lalalalalalalallalalal '},
+    {id:3,mess:'im 3 just to be sure lal '},
     {id:3,mess:'im 3'},
     {id:3,mess:'im 3'},
     {id:3,mess:'im 3'},

@@ -9,6 +9,6 @@ import reduxThunk from 'redux-thunk'
 import History from './History'
 
 const composeEnhancers=window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__||compose
-
+// REDUXSTORE
 const store=createStore(reducers,composeEnhancers(applyMiddleware(reduxThunk)))
 ReactDom.render(<Provider store={store}><Router history={History}><App/></Router></Provider>,document.getElementById('root'))

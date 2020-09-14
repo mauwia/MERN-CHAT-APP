@@ -2,7 +2,7 @@ let io,socket
 const mongoose=require('mongoose')
 const Chat=require('../Model/chat')
 const createRoom=async(roomName,user_id)=>{
-   // console.log(roomName,user_id)
+  
    try{
       const newChat=new Chat({
          chatAdmin:roomName.createrId,
@@ -20,7 +20,6 @@ const createRoom=async(roomName,user_id)=>{
 }
 const joinRoom=async(room,roomDetail)=>{
    try{
-      // console.log(room)
       let flag=0
       room.chat_users.map(user=>{
          if(user.chatUserId==roomDetail.joinerId)

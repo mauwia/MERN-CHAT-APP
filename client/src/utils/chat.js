@@ -5,14 +5,14 @@ if(localStorage.token){
     socket=io('http://localhost:8000/',{query:'user_id='+data})
 }
 export const socketCall=(roomName)=>{
-    // console.log()
+
     socket.emit('createRoom',roomName)
 }
 export const getCreatedRoom=(cb,notifi)=>{
     socket.on('roomSave',room=>{cb(room);notifi('Room Created','success')})
 }
 export const joinRoom=(roomDetail)=>{
-    // console.log(roomDetail)
+    
     socket.emit('joinRoom',roomDetail)
 }
 export const exception=cb=>{

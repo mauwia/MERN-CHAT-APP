@@ -14,8 +14,7 @@ exports.getOneRoom=async(req,res,next)=>{
         const roomId=req.params.id
         // console.log(roomId)
         const chat=await Chats.findOne({"roomId":roomId}).populate('chatAdmin chat_users.chatUserId','_id facebook.userName email photo')
-        // console.log(await Chats.findOne({"roomId":roomId}).populate('chatAdmin','_id facebook.userName'))
-        // console.log(chat)
+       
         return res.status(200).json({chat:chat})
     }
     catch(err){

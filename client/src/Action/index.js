@@ -3,7 +3,7 @@ import {getAllRooms, getOneRooms} from '../Api/chatApi'
 import History from '../History'
 export const SignIn=(response)=>async dispatch=> {
     let data=await onSuccess(response)
-    // console.log(data)
+    console.log(data)
     History.push('/')
     dispatch({type:'SIGN_IN',payload:data})
 }

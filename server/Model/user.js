@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-
+// USER STRUCTURE
 const userSchema=mongoose.Schema({
     _id:mongoose.Schema.Types.ObjectId,
     facebook:{

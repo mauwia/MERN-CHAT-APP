@@ -7,7 +7,10 @@ class ViewMates extends React.Component{
         loading: false,
         visible: false,
       };
-    
+      // state = {
+      //   loading: false,
+      //   visible: false,
+      // };
       showModal = () => {
         this.setState({
           visible: true,

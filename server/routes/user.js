@@ -1,7 +1,6 @@
 const router=require('express').Router()
 const passport=require('passport')
 const userController=require('../Controller/user')
-// const chatController=require('../Controller/chat')
 
 
 require('../Middlware/passport')

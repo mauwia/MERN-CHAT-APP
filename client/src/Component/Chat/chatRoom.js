@@ -11,7 +11,6 @@ import IncMessage from './IncomingMess'
 class ChatRoom extends React.Component{
     componentDidMount(){
         this.props.GetChat(this.props.match.params.id)
-        // console.log(this.props.match.params.id)
     }
     render(){
         return<>{this.props.room && <Row className='landing2'>
